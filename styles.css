@@ -1,17 +1,131 @@
-* {
-  margin:0px;
-  padding:0px;
+*,:active{
+    outline:none;
+}
+*{
+    margin:0;
+    padding:0;
+    font-family:"quicksand",sans-serif;
 }
 
-#octocat {
-  display: block;
-  width:384px;
-  margin: 50px auto;
+html{
+    font-size: 62.5%;
+}
+.flex-container> div {
+    width: 100%;
+    height: 100vh;
+    color: black;
+    background-color: #bfa378;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-rendering: optimizeLegibility;
+    font-size: 1.2rem;
+    margin: 0 auto;
+
+}
+@media all and (max-width: 500px) {
+    button{
+        color: deeppink;
+    }
+
+
+}
+h1 {
+    text-align: center;
+    color: white;
+    position: absolute;
+    height: 780px;
+
+
+
+
+
+}
+h2{
+    text-align: center;
+    color: white;
+    position: absolute;
+    height: 700px;
+
+
 }
 
-p {
-  display: block;
-  width: 400px;
-  margin: 50px auto;
-  font: 30px Monaco,"Courier New","DejaVu Sans Mono","Bitstream Vera Sans Mono",monospace;
+
+p{
+    text-align: center;
+    font-size: 2rem;
+    display: flex;
+
+
+
 }
+button{
+    background-color: white;
+    height: 3.5rem;
+    width: 30rem;
+    border:none;
+    color: black;
+    text-align: center;
+    position: relative;
+
+
+}
+input[type=text] {
+    width: 30rem;
+    height: 3.5rem;
+    border: none;
+    text-align:left;
+    display: flex;
+    position: relative;
+
+}
+#select {
+    background-color: white;
+    height: 3.5rem;
+    width: 8.9rem;
+    border: none;
+    color: black;
+    text-align: center;
+}
+#selecteren{
+    background-color: white;
+    height: 3.5rem;
+    width: 8.9rem;
+    border: none;
+    color: black;
+    text-align: center;
+}
+#date{
+    background-color: white;
+    height: 3.5rem;
+    width: 26.8rem;
+    border: none;
+    color: black;
+    text-align: center;
+
+}
+/* iphone x */
+/* Portrait and Landscape */
+@media only screen
+and (min-device-width: 375px)
+and (max-device-width: 812px)
+and (-webkit-min-device-pixel-ratio: 3) {
+
+}
+
+/* Portrait */
+@media only screen
+and (min-device-width: 375px)
+and (max-device-width: 812px)
+and (-webkit-min-device-pixel-ratio: 3)
+and (orientation: portrait) {
+
+}
+
+/* Landscape */
+@media only screen
+and (min-device-width: 375px)
+and (max-device-width: 812px)
+and (-webkit-min-device-pixel-ratio: 3)
+and (orientation: landscape) {
+
