@@ -1,18 +1,81 @@
 <!DOCTYPE html>
+<head xmlns="http://www.w3.org/1999/html">
 
-<html>
-<head>
-  <meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
-  <title>my-first-website</title>
-  <LINK href="styles.css" rel="stylesheet" type="text/css">
-</head>
+    <meta charset="UTF-8"/>
+    <meta name="viewpoint" content="width=device-width,initial-scale=1.0"/>
+    <title></title>
+    <link rel="stylesheet" href="style.css"/>
+    <link rel="stylesheet" href=" https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Quicksand:wght@300;400;500;600;700&display=swap" rel="stylesheet">
 
 <body>
 
-<img src="https://octodex.github.com/images/daftpunktocat-thomas.gif" id="octocat" alt="octocat-gif" />
+<div class="flex-container">
+    <div class="date">
+        <header>
+        <h1> Make a appointment</h1>
+        <h2>House of Royalty's</h2>
+        </header>
+        <section>
+     <div>
+            <form action="yes.php" method="post">
+            <label for="firstName">First name:</label><br>
+            <input type="text" id="firstName" name="firstName" required><br><br>
+            <label for="lastName">Lastname:</label><br>
+            <input type="text" id="lastName" name="lastName" required ><br><br>
+            <label for="email">Email:</label><br>
+            <input type="text" id="email" name="email" required ><br><br>
+            <label for="time1">Phone Number:</label><br>
+            <input type="text" id="time1" name="time" required ><br><br>
+            <label for="street">Delivery address:</label><br>
+            <input type="text" id="street" name="street" required><br><br>
 
-<!-- Change this code here by copy and pasting your template on line 15 -->
-<p>Welcome to your first GitHub Pages website!</p>
+
+
+                <label>Date: <input type="date" id="date" name="date"
+                                    value="08-04-2021"
+                                    min="08-04-2021" max="31-08-2021" required ></label><br><br>
+
+
+            <label> Begin time: </label>
+            <label for="select"></label><label for="selecteren"></label><select id ="selecteren">
+            <option> 10:00</option>
+            <option> 11:00</option>
+            <option> 12:00</option>
+            <option> 13:00</option>
+            <option> 14:00</option>
+            <option> 15:00</option>
+            <option> 16:00</option>
+        </select>
+
+            <label> End time: </label>
+            <label for="select"></label><label for="select"></label><select id ="select">
+            <option> 11:00</option>
+            <option> 12:00</option>
+            <option> 13:00</option>
+            <option> 14:00</option>
+            <option> 15:00</option>
+            <option> 16:00</option>
+        </select>
+                </section>
+
+<br><br>
+            <label for="bericht">leave a message:</label><input type="text" id="bericht" name="bericht" value=""><br><br>
+
+            <button onclick="document.location='http://www.houseofroyaltys.com/'">Requirements</button>
+
+            <button onclick="setTimeout(myFunction, 2000);">Confirm</button>
+
+            </form>
+<br><br>
+
+</div>
+    </section>
+            </div>
+        </div>
+
+        <script src="script.js"></script>
 
 </body>
-</html>
+
